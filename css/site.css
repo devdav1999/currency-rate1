@@ -1,0 +1,16 @@
+:root {
+	--bg-color: #827397;
+	--page-spacing: 50px;
+}
+
+body{background: var(--bg-color);}
+
+.BarContainer{
+	margin-left: var(--page-spacing);
+	display:  grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+h1{text-align:center;}
