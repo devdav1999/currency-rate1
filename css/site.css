@@ -5,6 +5,9 @@
 
 body{background: var(--bg-color);}
 
+.TopNav{background-color: #00004d;
+margin-top: -20px}
+
 .BarContainer{
 	position: absolute;
 	margin-left: var(--page-spacing);
