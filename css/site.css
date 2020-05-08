@@ -5,8 +5,11 @@
 
 body{background: var(--bg-color);}
 
-.TopNav{background-color: #00004d;
-margin-top: -20px}
+.TopNav{
+	background-color: #00004d;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -20px;}
 
 .BarContainer{
 	position: absolute;
@@ -23,20 +26,29 @@ margin-top: -20px}
 }
 
 .Bar{
-position: relative;
-background-color: yellow;
-text-align:center;
-justify-content: center;
-box-sizing: border-box;
-bottom: 0px;
-padding: 75px;
-margin-left: var(--page-spacing);
-margin-right: var(--page-spacing);
-font-size: 24px;
-color: purple;
-font-family: 'Righteous', cursive;
+	position: relative;
+	background-color: yellow;
+	text-align:center;
+	justify-content: center;
+	box-sizing: border-box;
+	bottom: 0px;
+	padding: 75px;
+	margin-left: var(--page-spacing);
+	margin-right: var(--page-spacing);
+	font-size: 24px;
+	color: purple;
+	font-family: 'Righteous', cursive;
+	transition: background-color .9s;
 }
 
-h1{text-align:center;
-color: yellow;
-font-family: 'Righteous', cursive;}
+.Bar:hover{
+	background-color: #bccb4d;
+}
+
+h1{
+	text-align:center;
+	color: yellow;
+	font-family: 'Righteous', cursive;}
+
+
+
