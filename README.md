@@ -9,4 +9,4 @@ The data is based from the API: https://api.exchangeratesapi.io/latest
 Here is a screenshot of the bar graph with the color change transition in effect
 
 
-(./img/screenshot.png)
+![Screenshot](./img/screenshot.png)
